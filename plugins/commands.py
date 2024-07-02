@@ -3,7 +3,7 @@ import logging
 import random
 import asyncio
 import pytz
-from .pmfilter import auto_filter 
+#from .pmfilter import auto_filter 
 from Script import script
 from datetime import datetime
 from database.refer import referdb
@@ -12,7 +12,7 @@ from pyrogram import Client, filters, enums
 from pyrogram.errors import ChatAdminRequired, FloodWait
 from pyrogram.types import *
 from database.ia_filterdb import Media, get_file_details, unpack_new_file_id, get_bad_files
-from database.users_chats_db import db, delete_all_msg
+from database.users_chats_db import db
 from info import CHANNELS, ADMINS, AUTH_CHANNEL, LOG_CHANNEL, PICS, BATCH_FILE_CAPTION, CUSTOM_FILE_CAPTION, PROTECT_CONTENT, CHNL_LNK, GRP_LNK, REQST_CHANNEL, SUPPORT_CHAT_ID, SUPPORT_CHAT, MAX_B_TN, VERIFY, HOW_TO_VERIFY, SHORTLINK_API, SHORTLINK_URL, TUTORIAL, IS_TUTORIAL, PREMIUM_USER, PICS, SUBSCRIPTION
 from utils import get_settings, get_size, is_req_subscribed, save_group_settings, temp, verify_user, check_token, check_verification, get_token, get_shortlink, get_tutorial
 from database.connections_mdb import active_connection
@@ -219,12 +219,12 @@ async def start(client, message):
             parse_mode=enums.ParseMode.HTML
         )
         return  
-    if len(message.command) == 2 and message.command[1].startswith('getfile'):
-        movies = message.command[1].split("-", 1)[1] 
-        movie = movies.replace('-',' ')
-        message.text = movie 
-        await auto_filter(client, message) 
-        return
+    #if len(message.command) == 2 and message.command[1].startswith('getfile'):
+        #movies = message.command[1].split("-", 1)[1] 
+        #movie = movies.replace('-',' ')
+        #message.text = movie 
+        #await auto_filter(client, message) 
+        #return
     
     data = message.command[1]
     try:
