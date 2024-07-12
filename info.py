@@ -63,14 +63,14 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Deenu_dhakad') # How 
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zipshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '31e2a210a887b5f9e823e1f66a3b97ad488722ae')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'fd3d5cd0cd81adcdd2b9569b9a9b943e7e249748')')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Dhakad_Movie_Group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Deendayal_dhakad')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MawhOrzzRequestGroup')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+Qa4JhgNYgMllMzdl')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Deenu_dhakad') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Deendayal_dhakad')
