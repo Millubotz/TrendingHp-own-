@@ -62,8 +62,8 @@ VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( Fa
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Deenu_dhakad') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zipshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'fd3d5cd0cd81adcdd2b9569b9a9b943e7e249748')')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
