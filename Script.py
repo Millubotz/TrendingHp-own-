@@ -185,7 +185,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/Deendayal_dhakad">{file_caption}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/Deendayal_dhakad>[Deendayal_Dhakad]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/moviesandwebserieshubOrzz">{file_caption}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/mawhOrzzBackUp2>[~𝑴𝑨𝑾𝑯 𝑶𝒓𝒛𝒛⁠•]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
