@@ -31,7 +31,7 @@ CODE = (environ.get('CODE', 'https://graph.org/file/e419f801841c2ee3db0fc.jpg'))
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'zipshort.net'))
 STREAM_API = (environ.get('STREAM_API', 'fd3d5cd0cd81adcdd2b9569b9a9b943e7e249748'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Deenu_dhakad'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Mawhextras/6'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5324831370').split()]
@@ -59,7 +59,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Deenu_dhakad') # How to open tutorial link for verification
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Mawhextras/6') # How to open tutorial link for verification
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'bindaaslinks.com')
@@ -73,7 +73,7 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MawhOrzzRequestGroup')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+Qa4JhgNYgMllMzdl')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Deenu_dhakad') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'Deendayal_dhakad')
+MSG_ALRT = environ.get('MSG_ALRT', 'MAWH ORZZ Team')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002049520622')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
