@@ -60,6 +60,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Verify
 VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Mawhextras/6') # How to open tutorial link for verification
+DEENDAYAL_VERIFY_TIME = int(environ.get('DEENDAYAL_VERIFY_TIME', 6)) # Add time in hours
+
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'bindaaslinks.com')
