@@ -27,7 +27,7 @@ class script(object):
 ▫ 𝟸𝟺x𝟽 sᴇʀᴠɪᴄᴇs ᴀᴠᴀɪʟᴀʙʟᴇ.</b>"""
 
     
-    STATUS_TXT = """<b>╭────[ 🇩 .🇩X~𝑴𝑨𝑾𝑯 𝑶𝒓𝒛𝒛⁠• ]────⍟
+    STATUS_TXT = """<b>╭────[ 🇩.🇩X~𝑴𝑨𝑾𝑯 𝑶𝒓𝒛𝒛⁠• ]────⍟
 ├⍟ Tᴏᴛᴀʟ Fɪʟᴇs : <code>{}</code>
 ├⍟ Tᴏᴛᴀʟ Usᴇʀs : <code>{}</code>
 ├⍟ Tᴏᴛᴀʟ Cʜᴀᴛs : <code>{}</code>
