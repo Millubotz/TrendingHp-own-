@@ -59,13 +59,13 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Mawhextras/6') # How to open tutorial link for verification
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/mawhVerify/10') # How to open tutorial link for verification
 DEENDAYAL_VERIFY_TIME = int(environ.get('DEENDAYAL_VERIFY_TIME', 4)) # Add time in hours
 
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'bindaaslinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '49ff923da91ec127edca47fe22d4d2d8d7514669')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'ae1a567b04eaf9ae0ff38cb5366f6d0828a757f8')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
