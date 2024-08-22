@@ -29,9 +29,9 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/242b7f1b5274
 CODE = (environ.get('CODE', 'https://graph.org/file/d134388dbf1845dca3d3c.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'zipshort.net'))
-STREAM_API = (environ.get('STREAM_API', 'fd3d5cd0cd81adcdd2b9569b9a9b943e7e249748'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Mawhextras/6'))
+STREAM_SITE = (environ.get('STREAM_SITE', ''))
+STREAM_API = (environ.get('STREAM_API', ''))
+STREAMHTO = (environ.get('STREAMHTO', ''))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5324831370').split()]
