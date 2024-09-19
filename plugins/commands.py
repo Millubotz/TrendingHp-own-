@@ -4,6 +4,7 @@ import random
 import asyncio
 import pytz
 #from .pmfilter import auto_filter 
+from database.verify_db import vr_db
 from Script import script
 from datetime import datetime
 from database.refer import referdb
@@ -361,6 +362,7 @@ async def start(client, message):
                 protect_content=False
             )
             await verify_user(client, userid, token)
+            await vr_db.save_verification(message.from_user.id)
         else:
             return await message.reply_text(
                 text="<b>Invalid link or Expired link !</b>",
