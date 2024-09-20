@@ -41,6 +41,11 @@ pyshorteners
 pyromod
 colorama
 
+#Deendayal403
+instaloader==4.9.5
+ fuzzywuzzy
+ python-Levenshtein
+
  #---ytdl----# 
  ffmpeg
 youtube_search
